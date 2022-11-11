@@ -53,4 +53,20 @@
     <string name="singleweathertitle">Central Province</string>
     <string name="singleweathertitle2">Kandy</string>
     <string name="hazardtitle">Hazard Details</string>
+    <string name="profile">Profile</string>
+    <string name="profname">Pasindu Gunasekara</string>
+    <string name="profemail">pasindu@gmail.com</string>
+    <string name="profnum">0775568565</string>
+    <string name="profeditbtn">EDIT</string>
+    <string name="addfback">Add Feedback</string>
+    <string name="accountsetprof">Account Settings</string>
+    <string name="aboutprof">About Application</string>
+    <string name="logout">Logout</string>
+    <string name="editprof">Edit Profile</string>
+    <string name="profdet">Profile Details</string>
+    <string name="fname">First Name</string>
+    <string name="lastname2">Last Name</string>
+    <string name="email2">Email Address</string>
+    <string name="phone2">Phone Number</string>
+    <string name="save">Save</string>
 </resources>
