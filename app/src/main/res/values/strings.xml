@@ -69,4 +69,9 @@
     <string name="email2">Email Address</string>
     <string name="phone2">Phone Number</string>
     <string name="save">Save</string>
+    <string name="accsettings">Account Settings</string>
+    <string name="changepass">Change Password</string>
+    <string name="oldpass">Old Password</string>
+    <string name="newpass">New Password</string>
+    <string name="confpass">Confirm Password</string>
 </resources>
