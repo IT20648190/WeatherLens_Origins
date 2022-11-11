@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/loginhere"
         android:layout_width="290dp"
         android:layout_height="42dp"
         android:layout_marginTop="24dp"
@@ -53,10 +53,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/loginhere" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/insertfeedback"
         android:layout_width="49dp"
         android:layout_height="45dp"
         android:layout_marginTop="24dp"
@@ -69,13 +69,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/feedbackbtn"
         android:layout_width="286dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
         android:text="@string/submitbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+        app:layout_constraintTop_toBottomOf="@+id/insertfeedback" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

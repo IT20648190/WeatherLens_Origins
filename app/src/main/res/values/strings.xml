@@ -10,12 +10,14 @@
     <string name="welcomeabord">Welcome Abord!</string>
     <string name="firstname">First Name</string>
     <string name="lastname">Last Name</string>
-    <string name="enteremail">Enter Email</string>
+    <string name="enterloginmobile">Enter Mobile Number</string>
     <string name="entermobile">Enter Mobile Number</string>
+    <string name="enteremail">Enter Email</string>
     <string name="enterpassword">Enter Password</string>
     <string name="confirmpassword">Confirm Password</string>
     <string name="signupbtn">Sign Up</string>
     <string name="or">Or</string>
+    <string name="loginhere">Login Here</string>
     <string name="Loginhere">Login Here</string>
     <string name="welcomeback">Welcome Back</string>
     <string name="userdashboard">User Dashboard</string>
