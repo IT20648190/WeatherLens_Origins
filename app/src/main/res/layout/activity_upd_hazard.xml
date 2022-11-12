@@ -139,6 +139,7 @@
         android:layout_marginStart="158dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="159dp"
+        android:backgroundTint="@color/getstartbtncol"
         android:text="@string/submitbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
