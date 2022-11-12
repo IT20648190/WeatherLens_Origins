@@ -5,23 +5,21 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.Button;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class HazardDetails extends AppCompatActivity {
+public class HazardsDetailsWA extends AppCompatActivity {
 
     RecyclerView recview;
-    Hazadapter hazadapter;
-
+    WAHazadapter waHazadapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hazard_details);
+        setContentView(R.layout.activity_hazards_details_wa);
 
-        recview = (RecyclerView) findViewById(R.id.recview);
+        recview = (RecyclerView) findViewById(R.id.recviewwa);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1);
         recview.setLayoutManager(gridLayoutManager);
 
@@ -30,19 +28,19 @@ public class HazardDetails extends AppCompatActivity {
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("Hazard"), modelhazard.class)
                         .build();
 
-        hazadapter = new Hazadapter(options);
-        recview.setAdapter(hazadapter);
+        waHazadapter = new WAHazadapter(options);
+        recview.setAdapter(waHazadapter);
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        hazadapter.startListening();
+        waHazadapter.startListening();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        hazadapter.stopListening();
+        waHazadapter.stopListening();
     }
 }

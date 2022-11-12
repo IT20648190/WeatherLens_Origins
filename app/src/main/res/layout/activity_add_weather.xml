@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/et_title"
         android:layout_width="309dp"
         android:layout_height="49dp"
         android:layout_marginTop="40dp"
@@ -55,10 +55,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        app:layout_constraintTop_toBottomOf="@+id/et_title" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/et_type"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/et_date"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -80,10 +80,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+        app:layout_constraintTop_toBottomOf="@+id/et_type" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/haz_submit"
         android:layout_width="306dp"
         android:layout_height="52dp"
         android:layout_marginTop="160dp"
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+        app:layout_constraintTop_toBottomOf="@+id/et_date" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

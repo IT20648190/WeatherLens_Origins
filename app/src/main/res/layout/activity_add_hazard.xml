@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894"
+        app:layout_constraintVertical_bias="0.906"
         app:srcCompat="@drawable/background" />
 
     <TextView
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/et_title"
         android:layout_width="309dp"
         android:layout_height="49dp"
         android:layout_marginTop="40dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/et_type"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -54,10 +54,11 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+        app:layout_constraintTop_toBottomOf="@+id/et_desc"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/et_date"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -66,22 +67,24 @@
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+        app:layout_constraintTop_toBottomOf="@+id/et_type"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/haz_submit"
         android:layout_width="306dp"
         android:layout_height="52dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="172dp"
         android:backgroundTint="@color/getstartbtncol"
+        android:onClick="Add"
         android:text="@string/submitbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+        app:layout_constraintTop_toBottomOf="@+id/et_date" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/et_desc"
         android:layout_width="309dp"
         android:layout_height="38dp"
         android:layout_marginTop="8dp"
@@ -91,6 +94,7 @@
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        app:layout_constraintTop_toBottomOf="@+id/et_title"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,14 +39,14 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/round_button"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/view_hazards"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/group_7095" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btn_addweather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -64,7 +64,7 @@
         android:layout_marginEnd="40dp"
         android:background="@drawable/round_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addfeedbackbtn"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addhazard"
         app:srcCompat="@drawable/group_7099" />
 
     <ImageButton
@@ -77,11 +77,11 @@
         app:layout_constraintEnd_toStartOf="@+id/logoutbtn"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addweather"
         app:srcCompat="@drawable/group_7097" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/view_hazards"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -92,7 +92,7 @@
         app:srcCompat="@drawable/group_7096" />
 
     <ImageButton
-        android:id="@+id/addfeedbackbtn"
+        android:id="@+id/btn_addhazard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -100,8 +100,8 @@
         android:background="@drawable/round_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/btn_addweather"
+        app:layout_constraintTop_toBottomOf="@+id/view_hazards"
         app:srcCompat="@drawable/group_7101" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

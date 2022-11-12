@@ -55,4 +55,8 @@
     <string name="singleweathertitle">Central Province</string>
     <string name="singleweathertitle2">Kandy</string>
     <string name="hazardtitle">Hazard Details</string>
+    <string name="viewhazards">View All Hazards</string>
+    <string name="updhaz">Update Hazard</string>
+    <string name="updtitle">Title</string>
+    <string name="upddate">Date</string>
 </resources>

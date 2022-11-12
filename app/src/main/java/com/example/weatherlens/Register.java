@@ -17,7 +17,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class Register extends AppCompatActivity {
+public class    Register extends AppCompatActivity {
     EditText fname,lname,email,mobile,password,repassword;
     Button register;
     TextView loginhere;
